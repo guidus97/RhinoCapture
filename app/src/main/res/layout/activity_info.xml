@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="100dp"
+           android:text="1) Select FASTCAPTURE mode or MULTICAPTURE mode for capturing photo and extract"
+           android:textSize="20dp"
+           android:textAlignment="center"
+           android:padding="10dp"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="100dp"
+           android:text="2) In FASTCAPTURE mode press the CAPTURE button to take a single picture of the monitor pointed "
+           android:textSize="20dp"
+           android:textAlignment="center"
+           android:padding="10dp"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="100dp"
+           android:text="3) In MULTICAPTURE mode you can take more pictures by pressing the CAPTURE button and then start the extraction process"
+           android:textSize="20dp"
+           android:textAlignment="center"
+           android:padding="5dp"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="100dp"
+           android:text="4) At the end of extraction process you will be sent to the cell gallery. You can also open the cell gallery from the main menù "
+           android:textSize="20dp"
+           android:padding="4dp"
+           android:textAlignment="center"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="100dp"
+           android:text="5) In the cell gallery keep pressed all the images that you want to share and select the upper SHARE icon in the menu bar then choose the app for email or others"
+           android:textSize="20dp"
+           android:textAlignment="center"
+           android:padding="3dp"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:text="6) Remember to share or send all the images that you prefer becouse if you start a new extraction the previous images will be deleted to avoid unnecessary storage occupation"
+           android:textSize="20dp"
+           android:textAlignment="center"
+           android:padding="10dp"/>
+
+
+
+   </LinearLayout>
+
+
+</ScrollView>
