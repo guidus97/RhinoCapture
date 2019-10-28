@@ -16,8 +16,8 @@
             android:layout_height="match_parent"
             app:layout_scrollFlags="exitUntilCollapsed|scroll"
             app:contentScrim="?attr/colorPrimary"
-            app:title="RhinoCapture"
-            app:expandedTitleMarginStart="48dp"
+            app:title="RhinoCellCapture"
+            app:expandedTitleMarginStart="30dp"
             app:expandedTitleMarginEnd="64dp"
             android:background="@drawable/blobs">
 
