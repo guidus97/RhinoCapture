@@ -290,7 +290,7 @@ public class GalleryActivity extends AppCompatActivity implements ClickListener,
             filesUris.add(Uri.parse("file://" + i));
         }
 
-        shareIntent.putExtra(Intent.EXTRA_SUBJECT, "RhinoCapture Extractions " + new Date());
+        shareIntent.putExtra(Intent.EXTRA_SUBJECT, "RhinoCellCapture Extractions " + new Date());
         shareIntent.putParcelableArrayListExtra(Intent.EXTRA_STREAM, filesUris);
 
         startActivity(Intent.createChooser(shareIntent, "Share images through"));
